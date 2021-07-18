@@ -2,4 +2,4 @@ seaborn
 plotly
 keras
 sklearn
-pip install tensorflow==2.1.0
+tensorflow==2.1.0
