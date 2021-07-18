@@ -1,5 +1,5 @@
 seaborn
 plotly
-keras==2.2.4
+keras
 sklearn
 tensorflow>=2.4.0
