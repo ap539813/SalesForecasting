@@ -2,3 +2,4 @@ seaborn
 plotly
 keras
 sklearn
+tensorflow
