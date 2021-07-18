@@ -2,4 +2,4 @@ seaborn
 plotly
 keras==2.2.4
 sklearn
-tensorflow==2.4.0
+tensorflow>=2.4.0
