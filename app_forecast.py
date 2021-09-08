@@ -28,7 +28,7 @@ def Model_result():
   st.markdown(
       "  \n   "
   )
-  files = os.listdir('/home/ankush/Desktop/python_programs/sabastian_comp')
+  files = os.listdir('Data/')
   files = [file for file in files if file[-3:] == 'csv']
   filename = st.selectbox('Select the data',[''] + files)
   click = st.button('Train Model')
@@ -98,7 +98,7 @@ def show_data():
     st.markdown(
         "  \n   "
     )
-    files = os.listdir('/home/ankush/Desktop/python_programs/sabastian_comp')
+    files = os.listdir('Data/')
     files = [file for file in files if file[-3:] == 'csv']
     filename = st.selectbox('Select the data',[''] + files)
     if filename != '':
