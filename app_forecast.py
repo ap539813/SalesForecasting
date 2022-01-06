@@ -214,7 +214,7 @@ st.set_page_config(layout="wide")  # this needs to be the first Streamlit comman
 st.title("Sales forecasting")
 
 st.sidebar.title("Control Panel")
-left_col, middle_col, right_col = st.beta_columns(3)
+left_col, middle_col, right_col = st.columns(3)
 palette = sns.color_palette("bright")
 
 tick_size = 12
